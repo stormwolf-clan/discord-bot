@@ -1,0 +1,22 @@
+load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
+load("//tools:defaults.bzl", "nest_library")
+
+nest_library(
+    name = "src",
+    srcs = glob(["*.ts"]),
+    deps = [
+        "//src/blizzard",
+        "//src/commands",
+        "@npm//@nestjs/core",
+        "@npm//nest-discord",
+        "@npm//rxjs",
+    ],
+)
+
+nodejs_binary(
+    name = "devserver",
+    data = [
+        ":src",
+    ],
+    entry_point = ":main.ts",
+)

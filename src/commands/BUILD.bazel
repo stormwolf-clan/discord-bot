@@ -1,0 +1,16 @@
+load("//tools:defaults.bzl", "nest_library")
+
+nest_library(
+    name = "commands",
+    srcs = glob(["*.ts"]),
+    visibility = [
+        "//src:__pkg__",
+    ],
+    deps = [
+        "//src/blizzard",
+        "@npm//@types/voca",
+        "@npm//nest-discord",
+        "@npm//rxjs",
+        "@npm//voca",
+    ],
+)

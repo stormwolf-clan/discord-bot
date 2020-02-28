@@ -1,5 +1,5 @@
 workspace(
-    name = "blizzard",
+    name = "discord_bot",
     managed_directories = {"@npm": ["node_modules"]},
 )
 

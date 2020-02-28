@@ -107,3 +107,5 @@ bazel-*
 dist
 .idea
 .bazelrc.user
+.env
+!.env.example

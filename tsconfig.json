@@ -2,6 +2,7 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "importHelpers": true,
+    "strictPropertyInitialization": false,
     "downlevelIteration": true,
     "strict": true,
     "moduleResolution": "node",
@@ -9,7 +10,6 @@
     "module": "commonjs",
     "target": "es2018",
     "baseUrl": ".",
-    "rootDirs": [".", "dist/bin"],
     "types": []
   },
   "bazelOptions": {
