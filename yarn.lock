@@ -2861,9 +2861,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-"nest-discord@file:../nest-discord/nest-discord-0.0.3.tgz":
-  version "0.0.3"
-  resolved "file:../nest-discord/nest-discord-0.0.3.tgz#c762f12d7e1bd667e7e25f2c492fdd28d5053026"
+nest-discord@0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/nest-discord/-/nest-discord-0.0.0.tgz#b06762b39922f04c7ff1957dda48160834af5f65"
+  integrity sha512-5z06GeXG54onOc2qlxYusX9U7ByoVdFEF9MTNvl6wmUFQeIuOX0P1aE4kYSUJpymAZhFGo7SE5r4TLPwzFRflA==
   dependencies:
     discord.js "11.5.1"
     lodash "4.17.15"

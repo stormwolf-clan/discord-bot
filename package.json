@@ -31,7 +31,7 @@
   "dependencies": {
     "voca": "1.4.0",
     "blizzard-client": "file:../blizzard-client/blizzard-client-0.0.0.tgz",
-    "nest-discord": "file:../nest-discord/nest-discord-0.0.3.tgz",
+    "nest-discord": "0.0.0",
     "tslib": "1.11.0",
     "@nestjs/core": "6.11.8",
     "reflect-metadata": "0.1.13",
